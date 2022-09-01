@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  background-color: #EAF6F6;
+    font-family: 'Indie Flower',cursive;
+    color: #11999E;
+}
+h1{
+  font-size: 50px;
+  margin-top: 0;
+  color: #66BFBF;
+  font-family: 'Beau Rivage',cursive;
+  font-weight: normal;
+}
+h1:hover{
+  color: gray;
+  font-weight: bold;
+}
+h3{
+  color: #11999E;
+  font-family: 'Indie Flower',cursive;
+}
+p{
+  font-size: 20px;
+  color: #11999E;
+  font-family: 'Indie Flower',cursive;
+}
+h3:hover{
+  color: gray;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width:5%;
+  border-color: gray;
+}
+img{
+  border-radius: 500px;
+}
+.myimg{
+  width: 150px;
+}
+/*img:hover{
+  background-color: blue;
+  border-radius: 1px;
+}*/
+.top{
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top:200px;
+}
+.top:hover{
+  border-radius: 100px;
+  background-color: red;}
+.middle{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin-left: 100px;
+  position: relative;
+  top:100px;
+}
+.middle:hover{
+  border-radius: 100px;
+  background-color: yellow;}
+.bottom{
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  margin-left: 200px;
+}
+.bottom:hover{
+  border-radius: 100px;
+  background-color: blue;}
+.guide{
+   border-radius: 500px;
+   position:fixed;
+   right:0px;
+   bottom:5px;
+   height:50px;
+  }
+.cloud1{
+  position: absolute;
+  left:300px;
+  top:200px;
+}
+.cloud2{
+  position: absolute;
+   right:350px;
+   top: 120px;
+}
+.bird{
+  height:50px;
+  position: absolute;
+  left:500px;
+  top:230px;
+}
+.bird:hover{
+  visibility: hidden;
+}
+.main{
+  margin: 0;
+background-color: #F7E9D7;
+text-align: center;
+}
